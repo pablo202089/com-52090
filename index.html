@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <title>Document</title>
-   <link rel="stylesheet" href="css/style.css">
+    <title>Under Armor</title> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <link rel="stylesheet" href="css/estilos.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -67,6 +70,24 @@
       <p class="parrafo">
         Descubri la mejor ropa y ponele estilo a tus entrenamientos con UNDER ARMOR
       </p>
+      <h3 class="text-titulo animate__animated animate__zoomIn">Encontra los mejores accesorios para tu vida deportiva</h3>
+      <div class="card-group">
+        <div class="card">
+          <img src="imagenes/bolso.jpg" data-aos="flip-up" class="card-img-top" alt="bolso under armor">
+          <div class="card-body">
+          </div>
+        </div>
+        <div class="card">
+          <img src="imagenes/gorra blanca under armor.jpg" data-aos="flip-up" class="card-img-top" alt="gorra blanca under armor">
+          <div class="card-body">
+          </div>
+        </div>
+        <div class="card">
+          <img src="imagenes/guantes negros under armor.jpg" data-aos="flip-up" class="card-img-top" alt="guantes under armor">
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="pie-pagina">
         <div class="grupo-1">
@@ -77,8 +98,10 @@
             </div>
             <div class="box">
               <h2>SOBRE NOSOTROS</h2>
-              <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ipsam.</P>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ipsam.</P>
+              <P>Somos una empresa con más de 40 años de trayectoria en la comercialización de calzado, indumentaria y artículos deportivos.
+                Contamos con más de 560 Colaboradores, 26 sucursales y a través de nuestro E-commerce llegamos a satisfacer la demanda de nuestros clientes en todo el país.</P>
+              <p>Ofrecemos las mejores marcas, el más amplio stock y atención personalizada en nuestros locales.
+                Nuestra marca es un clásico que acompaña día a día la pasión de los argentinos.</P>
             </div>
             <div class="box">
               <h2>SIGUENOS</h2>
@@ -100,5 +123,8 @@
     
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

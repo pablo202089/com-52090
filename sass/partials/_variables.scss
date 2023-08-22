@@ -1,0 +1,16 @@
+$black: #080808;
+$aliceblue: aliceblue;
+$lightgrey: rgb(114, 117, 117);
+$whithe:  #ffffff;
+
+@mixin boxmodel($margin,$padding){
+    margin: $margin;
+    padding: $padding;
+}
+
+@mixin flex($direccion,$justify,$aling){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $aling;
+}

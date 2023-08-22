@@ -1,0 +1,13 @@
+.input-group{
+    margin: 30px 30px;
+}
+ .correo{
+    @extend .input-group;
+ }
+ .contraseña{
+    @extend .input-group;
+ }
+ .comentarios{
+    @extend .input-group;
+ }
+ 
