@@ -103,20 +103,29 @@ body {
 .main-container {
   padding: 30px 0;
 }
+.main-container .catalogo {
+  text-align: center;
+  text-decoration: underline;
+}
 
 .input-group, .comentarios, .contraseña, .correo {
   margin: 30px 30px;
 }
 
+.boton {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .productos {
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 800px) {
   .pie-pagina .grupo-1 {
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
